@@ -14,8 +14,9 @@ int main() {
 
     prefix[0] = arr[0];
 
-    for(i = 1; i < n; i++)
-        prefix[i] = prefix[i-1] + arr[i];
+  for(i = 1; i < n ; i++){
+prefix[i] = prefix[i-1] + arr[i];
+  }
 
     printf("Prefix Sum Array:\n");
     for(i = 0; i < n; i++)
